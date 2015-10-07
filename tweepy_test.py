@@ -7,11 +7,11 @@
 # Access Token Secret eUboOm2u5cMoWbeVsZkGL6Cy7JN6OsKS1Vr7cmuOgUuqs
 
 import tweepy
-
-consumer_key = "seLtRPmpcnCpbGtOzRMkXJz3d"
-consumer_secret = "Hlee0nP1W5CwteG6uEHjzcyvLDL833Dvb3H5d8r6SHxaO5kwhW"
-access_token = "851859229-SNsRCZoCzAaCvu43k7hk094M6wjKm4VsJBjU3TZw"
-access_secret = "eUboOm2u5cMoWbeVsZkGL6Cy7JN6OsKS1Vr7cmuOgUuqs"
+# I've deleted the Twitter App but just in case
+consumer_key = "XXXXXX"
+consumer_secret = "XXXXXX"
+access_token = "XXXXXX"
+access_secret = "XXXXXX"
 
 auth = tweepy.auth.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
